@@ -57,9 +57,8 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("TeamYM")
-                await self.one.join_chat("TheYukki")
-                await self.one.join_chat("YukkiSupport")
+                await self.one.join_chat("stufchannel")
+                await self.one.join_chat("stufsupport")
             except:
                 pass
             assistants.append(1)
@@ -69,7 +68,7 @@ class Userbot(Client):
                 )
             except:
                 LOGGER(__name__).error(
-                    f"Assistant Account 1 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
+                    f"Akun Asisten 1 gagal mengakses Grup log.  Pastikan Anda telah menambahkan asisten Anda ke grup log Anda dan dipromosikan sebagai admin!! "
                 )
                 sys.exit()
             get_me = await self.one.get_me()
@@ -88,9 +87,8 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("TeamYM")
-                await self.two.join_chat("TheYukki")
-                await self.two.join_chat("YukkiSupport")
+                await self.one.join_chat("stufchannel")
+                await self.one.join_chat("stufsupport")
             except:
                 pass
             assistants.append(2)
@@ -100,7 +98,7 @@ class Userbot(Client):
                 )
             except:
                 LOGGER(__name__).error(
-                    f"Assistant Account 2 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
+                    f"Akun Asisten 2 gagal mengakses Grup log.  Pastikan Anda telah menambahkan asisten Anda ke grup log Anda dan dipromosikan sebagai admin!! "
                 )
                 sys.exit()
             get_me = await self.two.get_me()
@@ -119,9 +117,8 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("TeamYM")
-                await self.three.join_chat("TheYukki")
-                await self.three.join_chat("YukkiSupport")
+                await self.one.join_chat("stufchannel")
+                await self.one.join_chat("stufsupport")
             except:
                 pass
             assistants.append(3)
@@ -131,7 +128,7 @@ class Userbot(Client):
                 )
             except:
                 LOGGER(__name__).error(
-                    f"Assistant Account 3 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
+                    f"Akun Asisten 3 gagal mengakses Grup log.  Pastikan Anda telah menambahkan asisten Anda ke grup log Anda dan dipromosikan sebagai admin!! "
                 )
                 sys.exit()
             get_me = await self.three.get_me()
@@ -150,9 +147,8 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("TeamYM")
-                await self.four.join_chat("TheYukki")
-                await self.four.join_chat("YukkiSupport")
+                await self.one.join_chat("stufchannel")
+                await self.one.join_chat("stufsupport")
             except:
                 pass
             assistants.append(4)
@@ -162,7 +158,7 @@ class Userbot(Client):
                 )
             except:
                 LOGGER(__name__).error(
-                    f"Assistant Account 4 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
+                    f"Akun Asisten 4 gagal mengakses Grup log.  Pastikan Anda telah menambahkan asisten Anda ke grup log Anda dan dipromosikan sebagai admin!! "
                 )
                 sys.exit()
             get_me = await self.four.get_me()
@@ -181,9 +177,8 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("TeamYM")
-                await self.five.join_chat("TheYukki")
-                await self.five.join_chat("YukkiSupport")
+                await self.one.join_chat("stufchannel")
+                await self.one.join_chat("stufsupport")
             except:
                 pass
             assistants.append(5)
@@ -193,7 +188,7 @@ class Userbot(Client):
                 )
             except:
                 LOGGER(__name__).error(
-                    f"Assistant Account 5 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
+                    f"Akun Asisten 5 gagal mengakses Grup log.  Pastikan Anda telah menambahkan asisten Anda ke grup log Anda dan dipromosikan sebagai admin!! "
                 )
                 sys.exit()
             get_me = await self.five.get_me()
